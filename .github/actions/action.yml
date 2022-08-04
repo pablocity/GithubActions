@@ -1,0 +1,7 @@
+name: run-cypress
+description: Runs cypress tests
+
+runs:
+  steps:
+    - name: Cypress tests run
+        uses: cypress-io/github-action@v4
